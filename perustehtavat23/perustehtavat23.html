@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="viikko2ja3.css">
+    <script type="text/javascript" src="perustehtavat23.js"></script>
+  </head>
+  <body>
+    <div id="kaiki">
+
+    <article class='vieri' id='yksi'>
+      <h2>Viikko 2 osa 1</h2>
+      <h1>Tehtävä 1</h1>
+      <p> Ohjelma joka pyytää 3 numeroa ja laittaa järjestää ne.</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna 1. numero: <input type="text" id="eka" value=""></p>
+        <p>Anna 2. numero: <input type="text" id="toka" value=""></p>
+        <p>Anna 3. numero: <input type="text" id="kolmas" value=""></p>
+        <button type="button" name="button" onclick="jarjesta()">Järjestä luvut</button>
+      </form>
+    </article>
+
+
+
+    <article  class='vieri' id='kaksi'>
+      <h1>Tehtävä 2</h1>
+      <p> Ohjelma joka kysyy 5 lukua ja etsii niistä suurimman.</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna 1. luku: <input type="text" id="luku1" value=""></p>
+        <p>Anna 2. luku: <input type="text" id="luku2" value=""></p>
+        <p>Anna 3. luku: <input type="text" id="luku3" value=""></p>
+        <p>Anna 4. luku: <input type="text" id="luku4" value=""></p>
+        <p>Anna 5. luku: <input type="text" id="luku5" value=""></p>
+        <button type="button" name="button" onclick="etsiSuurin()">Etsi suurin numero</button>
+      </form>
+    </article>
+
+
+
+    <article  class='vieri' id='kolme'>
+      <h1>Tehtävä 3</h1>
+      <p> Ohjelma joka kertoo onko luku parillinen vai pariton</p>
+      <p>Anna luku: <input type="text" id="luku" value=""></p>
+      <button type="button" name="button" onclick="paritonParillinen()">Tarkista</button>
+    </article>
+
+
+
+    <article  class='vieri' id='nelja'>
+      <h1>Tehtävä 4</h1>
+      <p> Ohjelma joka kysyy ikää ja kertoo mitä saat ajaa: <16v - polkupyörää, <18v - mopoa, muutoin autoa</p>
+        <form class="" action="index.html" method="post">
+          <p>Anna käyttäjän ikä: <input type="text" id="ika" value=""></p>
+          <button type="button" name="button" onclick="ajoneuvo()">Näytä ajoneuvo</button>
+        </form>
+      </article>
+
+
+
+      <article  class='vieri' id='viisi'>
+      <h1>Tehtävä 5</h1>
+        <p> Ohjelma, joka kääntää "Hei maailma" tekstin valitulle kielelle
+          (englanti, ruotsi, viro)</p>
+      <p>Valitse kieli</p>
+      <select class="" id="kieli">
+        <option value="eng">Englanti</option>
+        <option value="swe">Ruotsi</option>
+        <option value="est">Viro</option>
+      </select>
+      <button type="button" id="button" onclick="kaanna()">Käännä</button>
+    </article>
+
+
+    <!--article class='vieri' id='yksi'>
+      <h2>Viikko 2 osa 2</h2>
+      <h5>Jostain syystä sanoo vaan negatiivinen</h5>
+      <h1> Tehtävä 1 </h1>
+      <p>Ohjelma joka tarkistaa onko luku
+         positiivinen vai negatiivinen</p>
+         <form class="" action="index.html" method="post">
+           <p>Anna luku: <input type="text" id="luku" value=""> </p>
+           <button type="button" name="button" onclick="posNeg()">Tarkista</button>
+         </form>
+    </article>
+
+
+
+      <article class="vieri" id="kaksi">
+        <h1>Tehtävä 2</h1>
+        <h5>ei toimi:/</h5>
+        <p>Ohjelma joka kertoo viikonpäivän</p>
+        <form class="" action="index.html" method="post">
+          <p>Anna päivän numero(1-7): <input type="text" id="paiva" value=""> </p>
+          <button type="button" name="button" onclick="vkoPaiva()">Päivä</button>
+          <div id="qwe">
+          </div>
+        </form>
+      </article>
+
+
+
+      <article class="vieri" id="kolme">
+        <h1>Tehtävä 3</h1>
+        <p>Ohjelma joka tarkistaa onko karkausvuosi</p>
+        <form class="" action="index.html" method="post">
+          <p>Syötä vuosiluku: <input type="text" id="karkaus" value=""> </p>
+          <button type="button" name="button" onclick:"karkausVuosi()">Tarkista</button>
+        </form>
+      </article-->
+
+      <article class='vieri' id='yksi'>
+        <h2>Viikko 3 osa 1</h2>
+      <h1>Tehtävä 1</h1>
+      <p> Ohjelma joka pyytää parillisen luvun ja sitten
+        kertoo kaikki parilliset luvut siihen asti
+      poislukien 0:n</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna parillinen luku: <input type="text" id="pluku" value=""></p>
+        <button type="button" name="button" onclick="tulostaParilliset()">Tulosta parilliset</button>
+        <div id="parilliset"></div>
+      </form>
+    </article>
+
+
+
+
+    <article  class='vieri' id='kaksi'>
+      <h1>Tehtävä 2</h1>
+      <p> Ohjelma joka muuntaa antamasi sanan salasanaksi laittamalla
+        joka kirjaimen väliin Ö kirjaimen.</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna sana: <input type="text" id="ksana" value=""></p>
+        <button type="button" name="button" onclick="muutaSalasanaksi()">Muuta salasanaksi</button>
+              <div id="salasana"></div>
+      </form>
+    </article>
+
+
+    <article  class='vieri' id='kolme'>
+      <h1>Tehtävä 3</h1>
+      <p>Ohjelma joka tarkistaa onko sanassasi ö- kirjain.</p>
+      <p>Anna sana: <input type="text" id="tsana" value=""></p>
+      <button type="button" name="button" onclick="tarkistaKirjain()">Onko ö-kirjainta</button>
+      <div id="vastaus"></div>
+    </article>
+
+
+    <article  class='vieri' id='nelja'>
+      <h1>Tehtävä 4</h1>
+      <p>Ohjelma joka laskee annetun luvun kertoman</p>
+        <form class="" action="index.html" method="post">
+          <p>Anna luku, josta lasketaan kertoma: <input type="text" id="kertoma" value=""></p>
+          <button type="button" name="button" onclick="laskeKertoma()">Laske kertoma</button>
+              <div id="kertomaVastaus"></div>
+        </form>
+      </article>
+
+
+
+      <article  class='vieri' id='viisi'>
+      <h1>Tehtävä 5</h1>
+        <p>Ohjelma joka tulostaa luvut 1-100 siten, että
+        jos luku on 3:lla jaollinen, tulostetaan hip ja
+        viidellä jaollinen tulostetaan heijaa ja
+        jos on molemmilla jaollinen niin tulostetaan hipheijaa </p>
+      <button type="button" id="button" onclick="hipHeijaa()">Tulosta</button>
+      <div id="lukujenTulostus"></div>
+    </article>
+
+    <article  class='vieri' id='kuusi'>
+    <h1>Tehtävä 6</h1>
+      <p>Ohjelma joka tulostaa 10 ensimmäistä numeroa</p>
+    <button type="button" id="kuusi" onclick="ekatKymmenen()">10 Ensimmäistä nroa</button>
+    <div id="lukujenTulostus10"></div>
+    </article>
+
+
+
+    <article  class='vieri' id='seitseman'>
+    <h1>Tehtävä 7</h1>
+      <p>Ohjelma, joka laskee 10 ensimmäistä numeroa yhteen</p>
+    <button type="button" id="button" onclick="yhteen()">Laske 10 ensimmäistä yhteen</button>
+    <div id="lukujenTulostusY"></div>
+    </article>
+
+
+
+    <article  class='vieri' id='kahdeksan'>
+    <h1>Tehtävä 8</h1>
+      <p>Ohjelma joka kysyy kahta lukua ja laskee ensimmäisen potenssiin toinen</p>
+      <p>Korotettava luku: <input type="text" id="kor" value=""> </p>
+      <p>Potenssi: <input type="text" id="pot" value=""> </p>
+    <button type="button" id="button" onclick="potenssi()">Laske</button>
+    <div id="lukujenTulostusP"></div>
+    </article>
+
+
+    <article  class='vieri' id='yhdeksan'>
+    <h1>Tehtävä 9</h1>
+      <p>Ohjelma, joka etsii annetusta luvuista suurimman ja pienimmän arvon</p>
+      <p>Anna 1. luku: <input type="text" id="taulukko[0]" value=""> </p>
+      <p>Anna 2. luku: <input type="text" id="taulukko[1]" value=""> </p>
+      <p>Anna 3. luku: <input type="text" id="taulukko[2]" value=""> </p>
+      <p>Anna 4. luku: <input type="text" id="taulukko[3]" value=""> </p>
+      <p>Anna 5. luku: <input type="text" id="taulukko[4]" value=""> </p>
+      <button type="button" id="button" onclick="etsiSuurinPienin()">Etsi suurin ja pienin</button>
+      <div id="lukujenTulostusT"></div>
+    </article>
+
+
+    <article  class='vieri' id='kymmenen'>
+    <h1>Tehtävä 10</h1>
+      <p>Salasalatehtävä mutta se arpoo kirjaimen Ö-n sijaan</p>
+      <p>Anna muokattava salasana:  <input type="text" id="salis" value="">
+    <button type="button" id="button" onclick="muokkaaSalasana()">Muunna salasanaksi</button>
+    <div id="lukujenTulostusS"></div>
+    </article>
+
+
+
+    <article  class='vieri' id='yksitoista'>
+    <h1>Tehtävä 11</h1>
+      <p>Ohjelma joka haluaa kahta numeroa ja tulostaa niiden välillä parilliset ja parittomat numerot sekä niiden summat</p>
+      <p>Pienempi numero:  <input type="text" id="pnro" value=""></p>
+      <p>Isompi numero:  <input type="text" id="inro" value=""></p>
+    <button type="button" id="button" onclick="llisettomat()">näytä parilliset ja parittomat erikseen ja summat</button>
+    <div id="lukujenTulostusPari"></div>
+      </article>
+
+
+
+      <article class='vieri' id='yksi'>
+        <h2>Viikko 3 osa 2</h2>
+      <h1>Tehtävä 1</h1>
+      <p> Ohjelma jolle voi antaa Scrabble-pelin sanan ja se laskee kirjainten pisteet seuraavasti:</p>
+      <ul>
+        <li>A, E, I, N, S, T = 1p</li>
+        <li>O, Ä, K, L = 2p</li>
+        <li>U, M = 3p</li>
+        <li>Y, H, J, P, R, V = 4p</li>
+        <li>Ö, D = 7p</li>
+        <li>B, F, G = 8p</li>
+        <li>C = 10p</li>
+        <li>loput kirjaimet = 12p</li>
+      </ul>
+      <form class="" action="index.html" method="post">
+        <p>Anna sana: <input type="text" id="scsana" value=""></p>
+        <button type="button" name="button" onclick="laskePisteet()">Laske pisteet</button>
+        <div id="tscrabble"></div>
+      </form>
+      </article>
+
+      <article class='vieri' id='kaksi'>
+      <h1>Tehtävä 2</h1>
+      <p>Ohjelma joka arpoo lottonumerot(7 kpl)</p>
+      <button type="button" name="button" onclick="arvoLotto()">Arvo numerot</button>
+      <p></p>
+      <div id="ltaulu"></div>
+      </article>
+
+      <article class='vieri' id='kolme'>
+      <h1>Tehtävä 3</h1>
+      <p>Ohjelma joka muuntaa määritetyn 2-uloitteisen taulukon taulukkomuotoon</p>
+      <p>Esimerkiksi [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]</p>
+        <form class="" action="index.html" method="post">
+          <p></p>
+          <button type="button" name="button" onclick="muunnaTaulukoksi()">Muunna taulukoksi</button>
+          <p></p>
+          <div id="ttaulu"></div>
+        </form>
+      </article>
+
+
+      <article class='vieri' id='nelja'>
+        <h1>Tehtävä 4</h1>
+        <p>Ohjelma joka tekee taulukon korttipakan korteista ja sekoittaa
+        "pakan" ja arpoo sieltä 5 korttia</p>
+        <button type="button" name="button" onclick="arvoKortit()">Arvo 5 korttia</button>
+        <div id='pakka'></div>
+      </article>
+
+    </div>
+  </body>
+</html>
