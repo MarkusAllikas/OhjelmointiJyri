@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Viikko 2 osa 1</title>
+    <link rel="stylesheet" href="viikko2ja3.css">
+    <script type="text/javascript" src="vko2o1.js" ></script>
+  </head>
+  <body>
+
+
+
+    <article class='vieri' id='yksi'>
+      <h2>Viikko 2 osa 1</h2>
+      <h1>Tehtävä 1</h1>
+      <p> Ohjelma joka pyytää 3 numeroa ja laittaa järjestää ne.</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna 1. numero: <input type="text" id="eka" value=""></p>
+        <p>Anna 2. numero: <input type="text" id="toka" value=""></p>
+        <p>Anna 3. numero: <input type="text" id="kolmas" value=""></p>
+        <button type="button" name="button" onclick="jarjesta()">Järjestä luvut</button>
+      </form>
+    </article>
+
+
+
+    <article  class='vieri' id='kaksi'>
+      <h1>Tehtävä 2</h1>
+      <p> Ohjelma joka kysyy 5 lukua ja etsii niistä suurimman.</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna 1. luku: <input type="text" id="luku1" value=""></p>
+        <p>Anna 2. luku: <input type="text" id="luku2" value=""></p>
+        <p>Anna 3. luku: <input type="text" id="luku3" value=""></p>
+        <p>Anna 4. luku: <input type="text" id="luku4" value=""></p>
+        <p>Anna 5. luku: <input type="text" id="luku5" value=""></p>
+        <button type="button" name="button" onclick="etsiSuurin()">Etsi suurin numero</button>
+      </form>
+    </article>
+
+
+
+    <article  class='vieri' id='kolme'>
+      <h1>Tehtävä 3</h1>
+      <p> Ohjelma joka kertoo onko luku parillinen vai pariton</p>
+      <p>Anna luku: <input type="text" id="luku" value=""></p>
+      <button type="button" name="button" onclick="paritonParillinen()">Tarkista</button>
+    </article>
+
+
+
+    <article  class='vieri' id='nelja'>
+      <h1>Tehtävä 4</h1>
+      <p> Ohjelma joka kysyy ikää ja kertoo mitä saat ajaa: <16v - polkupyörää, <18v - mopoa, muutoin autoa</p>
+        <form class="" action="index.html" method="post">
+          <p>Anna käyttäjän ikä: <input type="text" id="ika" value=""></p>
+          <button type="button" name="button" onclick="ajoneuvo()">Näytä ajoneuvo</button>
+        </form>
+      </article>
+
+
+
+      <article  class='vieri' id='viisi'>
+      <h1>Tehtävä 5</h1>
+        <p> Ohjelma, joka kääntää "Hei maailma" tekstin valitulle kielelle
+          (englanti, ruotsi, viro)</p>
+      <p>Valitse kieli</p>
+      <select class="" id="kieli">
+        <option value="eng">Englanti</option>
+        <option value="swe">Ruotsi</option>
+        <option value="est">Viro</option>
+      </select>
+      <button type="button" id="button" onclick="kaanna()">Käännä</button>
+    </article>
+
+
+
+
+  </body>
+</html>
