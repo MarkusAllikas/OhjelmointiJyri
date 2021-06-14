@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Viikko 3 osa 2</title>
+    <link rel="stylesheet" href="viikko2ja3.css">
+    <script type="text/javascript" src="vko3o2.js" ></script>
+  </head>
+  <body>
+
+
+    <article class='vieri' id='yksi'>
+      <h2>Viikko 3 osa 2</h2>
+    <h1>Tehtävä 1</h1>
+    <p> Ohjelma jolle voi antaa Scrabble-pelin sanan ja se laskee kirjainten pisteet seuraavasti:</p>
+    <ul>
+      <li>A, E, I, N, S, T = 1p</li>
+      <li>O, Ä, K, L = 2p</li>
+      <li>U, M = 3p</li>
+      <li>Y, H, J, P, R, V = 4p</li>
+      <li>Ö, D = 7p</li>
+      <li>B, F, G = 8p</li>
+      <li>C = 10p</li>
+      <li>loput kirjaimet = 12p</li>
+    </ul>
+    <form class="" action="index.html" method="post">
+      <p>Anna sana: <input type="text" id="scsana" value=""></p>
+      <button type="button" name="button" onclick="laskePisteet()">Laske pisteet</button>
+      <div id="tscrabble"></div>
+    </form>
+    </article>
+
+    <article class='vieri' id='kaksi'>
+    <h1>Tehtävä 2</h1>
+    <p>Ohjelma joka arpoo lottonumerot(7 kpl)</p>
+    <button type="button" name="button" onclick="arvoLotto()">Arvo numerot</button>
+    <p></p>
+    <div id="ltaulu"></div>
+    </article>
+
+    <article class='vieri' id='kolme'>
+    <h1>Tehtävä 3</h1>
+    <p>Ohjelma joka muuntaa määritetyn 2-uloitteisen taulukon taulukkomuotoon</p>
+    <p>Esimerkiksi [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]</p>
+      <form class="" action="index.html" method="post">
+        <p></p>
+        <button type="button" name="button" onclick="muunnaTaulukoksi()">Muunna taulukoksi</button>
+        <p></p>
+        <div id="ttaulu"></div>
+      </form>
+    </article>
+
+
+    <article class='vieri' id='nelja'>
+      <h1>Tehtävä 4</h1>
+      <p>Ohjelma joka tekee taulukon korttipakan korteista ja sekoittaa
+      "pakan" ja arpoo sieltä 5 korttia</p>
+      <button type="button" name="button" onclick="arvoKortit()">Arvo 5 korttia</button>
+      <div id='pakka'></div>
+    </article>
+
+
+
+  </body>
+</html>
