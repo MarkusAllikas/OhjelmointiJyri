@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Viikko 2 osa 2</title>
+    <link rel="stylesheet" href="viikko2ja3.css">
+    <script type="text/javascript" src="vko2o2.js"></script>
+  </head>
+  <body>
+
+    <article class="vieri" id="yksi">
+      <h2>Viikko 2 osa 2</h2>
+      <h1>Tehtävä 1</h1>
+      <p>Ohjelma, joka pyytää luvun ja tarkistaa
+         onko annettu luku positiivinen vai negatiivinen</p>
+      <form class="" action="index.html" method="post">
+         <button onclick="tarkista()" type="button" name="button">Anna luku</button>
+         <div id="posNeg"></div>
+      </form>
+    </article>
+
+
+    <article class="vieri" id="kaksi">
+      <h1>Tehtävä 2</h1>
+      <p>Ohjelma joka pyytää luvun 1-7 ja kertoo viikonpäivän</p>
+      <form class="" action="index.html" method="post">
+        <button onclick="vkoPva()" type="button" name="button">Anna luku(1-7)</button>
+        <div id="paiva"></div>
+      </form>
+    </article>
+
+    <article class="vieri" id="kolme">
+      <h1>Tehtävä 3</h1>
+      <p>Ohjelma joka tarkistaa onko annettu vuosi karkausvuosi</p>
+      <form class="" action="index.html" method="post">
+        <button onclick="karVuo()" type="button" name="button">anna luku</button>
+        <div id="karkaus"></div>
+      </form>
+    </article>
+
+    <article  class='vieri' id='nelja'>
+      <h1>Tehtävä 4</h1>
+      <p>Ohjelma joka pyytää 5 lukua ja laskee niiden summan ja keskiarvon</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna 1. luku: <input type="text" id="luku1" value=""></p>
+        <p>Anna 2. luku: <input type="text" id="luku2" value=""></p>
+        <p>Anna 3. luku: <input type="text" id="luku3" value=""></p>
+        <p>Anna 4. luku: <input type="text" id="luku4" value=""></p>
+        <p>Anna 5. luku: <input type="text" id="luku5" value=""></p>
+        <button type="button" name="button" onclick="sumKesk()">Laske summa ja keskiarvo</button>
+      </form>
+    </article>
+
+
+    <article class="vieri" id="viisi">
+      <h1>Tehtävä 5</h1>
+      <h5>Toimii muuten niinku pitääkin, mutta jostain syystä tulostaa "undefined" ennen lukuja.</h5>
+      <p>Ohjelma, joka pyytää luvun ja kertoo sen luvuilla 1-10</p>
+      <form class="" action="index.html" method="post">
+         <button onclick="lauseMuuttuja()" type="button" name="button">Anna luku</button>
+         <div id="luku"></div>
+      </form>
+    </article>
+
+  </body>
+</html>
